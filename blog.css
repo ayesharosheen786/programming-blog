@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin:3px;
+    padding:5px;
+}
+body{
+    font-family: cursive;
+    color:rgb(69, 222, 39);
+    padding-bottom: 50px;
+    background-color: rgb(240, 240, 151);
+}
+.container{
+    max-width: 1200px;
+    margin:0;
+}
+.nav{
+    position:fixed;
+    background-color: rgb(255, 238, 6);
+    transition: all 0.5s ease-in-out;
+    top:0;
+    left:0;
+    right:0;
+}
+.nav .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transition: all 0.5s ease-in-out;
+}
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+.nav a {
+   font-size: 40px;
+    color:rgb(62, 210, 25);
+    text-decoration: none;
+    padding:7px 15px;
+    transition: all 0.5 ease-in-out;
+}
+.nav.active {
+    background-color: navy;
+}
+.nav.active a {
+    color:rgb(142, 195, 228);
+    font-family: cursive;
+}
+.nav.active .container{
+    padding: 10px;
+}
+.nav a:hover{
+    color:rgb(25, 79, 141);
+}
+.example{
+    background-image: url("acodemy1.jpg");
+    background-size: cover;
+    height:100vh;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.example h1{
+    font-size: 46px;
+    margin:5px;
+    color:rgb(251, 248, 120)
+
+}
+.example p{
+    color:rgb(237, 234, 243);
+    letter-spacing: 2px;
+    font-size: 35px;
+    line-height: 40px;
+}
+.content h2{
+    color:rgb(31, 13, 69);
+    letter-spacing: 2px;
+    font-size: 45px;
+    line-height: 40px;
+
+}
+.content p{
+    color:rgb(140, 120, 184);
+    letter-spacing: 2px;
+    font-size: 35px;
+    line-height: 40px;
+}
+
